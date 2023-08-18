@@ -1,0 +1,136 @@
+.services {
+    margin: 120px 0px;
+
+}
+
+
+.services__head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    margin-bottom: 80px;
+
+}
+
+.services__heading {
+    color: #2D3958;
+    font-family: Outfit;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 116.667%;
+
+}
+
+.services__sub {
+    color: #7B88A8;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 155.556%;
+
+}
+
+
+.services__content {
+    position: relative;
+
+}
+
+.services__item {
+    border-radius: 12px;
+    border: 1px solid #E7E5EA;
+    padding: 42px 46px 64px 46px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.services__item:hover {
+    box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.20);
+    cursor: pointer;
+
+}
+
+.services__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+}
+
+.services__img {
+
+}
+
+.services__name {
+    color: #120F1F;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 145.455%;
+    padding: 10px 0px;
+    margin-top: 48px;
+
+}
+
+.services__text {
+    color: #7B88A8;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 162.5%;
+
+}
+
+.services__decorate {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateX(120%);
+
+    width: 60px;
+    height: 60px;
+    background-color: #4F77FF;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+
+.services__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+
+.services__btn button {
+    padding: 18px 32px;
+    background-color: #4F77FF;
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 160%;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+.services__btn button:hover {
+    cursor: pointer;
+    background-color: #85a0fa;
+
+}
