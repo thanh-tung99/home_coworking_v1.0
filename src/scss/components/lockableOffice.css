@@ -1,0 +1,55 @@
+.lockable-office {
+  margin: 0px 50px 120px 50px;
+  background-color: #F7F5F1;
+  border-radius: 20px;
+  padding: 100px 65px;
+}
+
+.lockable-office__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.lockable-office__heading {
+  color: #2D3958;
+  font-family: Outfit;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 127.778%;
+}
+
+.lockable-office__icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lockable-office__description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.lockable-office__name {
+  color: #2D3958;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 155.556%;
+}
+
+.lockable-office__sub {
+  color: #7B88A8;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 162.5%;
+}/*# sourceMappingURL=lockableOffice.css.map */

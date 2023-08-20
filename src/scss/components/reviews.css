@@ -1,0 +1,94 @@
+.reviews {
+  background-color: #F7F5F1;
+  padding: 120px 0px 105px 0px;
+}
+
+.reviews__heading {
+  color: #2D3958;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 116.667%;
+  padding: 15px 0px;
+}
+
+.reviews__sub {
+  color: #7B88A8;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 145.455%;
+  padding: 15px 0px;
+}
+
+.reviews__content {
+  margin-top: 65px;
+  position: relative;
+}
+
+.reviews__item {
+  border-radius: 20px;
+  background-color: #FFF;
+  padding: 35px 35px 45px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reviews__avata {
+  border-radius: 50%;
+}
+
+.reviews__name {
+  color: #2D3958;
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145.455%;
+}
+
+.reviews__job {
+  color: #7B88A8;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 162.5%;
+  margin-bottom: 15px;
+}
+
+.reviews__rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #F9E492;
+  gap: 5px;
+  padding: 5px 0px;
+}
+
+.reviews__text {
+  color: #7B88A8;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 155.556%;
+  padding: 5px 0px;
+  margin-top: 20px;
+}
+
+.reviews__decorate {
+  width: 70px;
+  height: 70px;
+  background-color: #4F77FF;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-100%, 50%);
+}/*# sourceMappingURL=reviews.css.map */

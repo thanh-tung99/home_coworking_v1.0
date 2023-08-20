@@ -1,0 +1,30 @@
+.logo-communication {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 88px;
+  margin-bottom: 128px;
+}
+
+.logo-communication__heading {
+  color: #000;
+  font-family: Outfit;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 127.778%;
+}
+
+.logo-communication__item {
+  overflow: hidden;
+}
+
+.logo-communication__img {
+  width: 100%;
+  transition: scale 400ms;
+}
+
+.logo-communication__img:hover {
+  scale: 90%;
+  cursor: pointer;
+}/*# sourceMappingURL=logoCommunication.css.map */

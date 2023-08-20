@@ -1,0 +1,115 @@
+.gallery {
+  margin-bottom: 130px;
+}
+
+.gallery__img {
+  position: relative;
+}
+
+.gallery__img img {
+  width: 100%;
+}
+
+.gallery__decorate {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background-color: #61DCDF;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  bottom: 10px;
+  left: 0;
+  transform: translateX(calc(-100% - 10px));
+}
+
+.gallery__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0px 26px 0px;
+}
+
+.gallery__heading--left {
+  color: #2D3958;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 145.455%;
+  transition: all 0.3s;
+}
+
+.gallery__heading--left:hover {
+  text-decoration: underline;
+  color: #4F77FF;
+  cursor: pointer;
+}
+
+.gallery__price {
+  color: #7B88A8;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 145.455%;
+  margin-top: 3px;
+}
+
+.gallery__sub {
+  color: #7B88A8;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 155.556%;
+}
+
+.gallery__heading--right {
+  color: #2D3958;
+  font-family: Outfit;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 119.048%;
+  margin: 30px 0px;
+}
+
+.gallery__link {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  color: #886CFF;
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 160%;
+  text-transform: uppercase;
+  padding: 10px 0px;
+}
+
+.gallery__btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  margin-top: 80px;
+}
+
+.gallery__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #FFF;
+  border: 1px solid #E7E5EA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7B88A8;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.gallery__icon:hover {
+  box-shadow: 0px 20px 50px rgba(79, 119, 255, 0.2);
+  color: #2D3958;
+  cursor: pointer;
+}/*# sourceMappingURL=gallery.css.map */
