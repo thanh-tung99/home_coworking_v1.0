@@ -1,5 +1,8 @@
 .page-header {
-    height: 950px;
+    padding-bottom: 130px;
+    position: relative;
+    // padding-top: 50%;
+    // background: url(.../assets/img/img_background-head.png) top center / cover no-repeat;
 
 }
 .page-header__navigate {
@@ -11,16 +14,21 @@
 }
 
 .page-header__background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // z-index: -1;
+    // width: 100%;
 
 }
 
 .page-header__img {
     width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
 }
 
 
