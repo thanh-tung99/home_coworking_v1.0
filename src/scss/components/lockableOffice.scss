@@ -2,7 +2,33 @@
     margin: 0px 50px 120px 50px;
     background-color: #F7F5F1;
     border-radius: 20px;
-    padding: 100px 65px;
+    padding: 40px;
+    
+    @media (max-width: 575px) {
+        
+        
+    }
+    
+    @media (min-width: 575px) {
+        
+        
+    }
+    
+    @media (min-width: 768px) {
+        
+        
+    }
+    
+    @media (min-width: 992px) {
+        padding: 100px 65px;
+            
+            
+    }
+    
+    @media (min-width: 1200px) {
+            
+            
+    }
 
 }
 

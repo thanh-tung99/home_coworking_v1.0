@@ -25,7 +25,27 @@
 
 
 .portfolio__img {
-    position: relative;
+
+    @media (max-width: 575px) {
+        
+    }
+        
+    @media (min-width: 575px) {
+            
+    }
+        
+    @media (min-width: 768px) {
+            
+    }
+        
+    @media (min-width: 992px) {
+            
+    }
+    
+    @media (min-width: 1200px) {
+        position: relative;
+            
+    }
 
 }
 
@@ -61,5 +81,28 @@
     bottom: 0;
     left: 0;
     transform: translate(-90%, -220%);
+
+    display: none;
+
+    @media (max-width: 575px) {
+        
+    }
+        
+    @media (min-width: 575px) {
+      
+    }
+        
+    @media (min-width: 768px) {
+      
+    }
+        
+    @media (min-width: 992px) {
+            
+    }
+    
+    @media (min-width: 1200px) {
+        display: block;
+
+    }
 
 }

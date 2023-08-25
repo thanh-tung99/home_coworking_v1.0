@@ -1,5 +1,5 @@
 .services {
-    margin: 120px 0px;
+    padding: 120px 0px;
 
 }
 
@@ -17,10 +17,31 @@
 .services__heading {
     color: #2D3958;
     font-family: Outfit;
-    font-size: 48px;
     font-weight: 500;
     line-height: 116.667%;
     text-align: center;
+    font-size: 38px;
+
+    @media (max-width: 575px) {
+        
+    }
+        
+    @media (min-width: 575px) {
+       
+    }
+        
+    @media (min-width: 768px) {
+      
+    }
+        
+    @media (min-width: 992px) {
+        font-size: 48px;
+                
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 
@@ -30,6 +51,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 155.556%;
+    text-align: center;
 
 }
 
@@ -105,6 +127,33 @@
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
+
+    display: none;
+
+    @media (max-width: 575px) {
+        
+        
+    }
+        
+    @media (min-width: 575px) {
+      
+            
+    }
+        
+    @media (min-width: 768px) {
+      
+            
+    }
+        
+    @media (min-width: 992px) {
+            
+            
+    }
+    
+    @media (min-width: 1200px) {
+        display: block;
+            
+    }
 
 }
 
