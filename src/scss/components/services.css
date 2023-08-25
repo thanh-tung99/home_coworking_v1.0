@@ -1,5 +1,5 @@
 .services {
-  margin: 120px 0px;
+  padding: 120px 0px;
 }
 
 .services__head {
@@ -14,18 +14,23 @@
 .services__heading {
   color: #2D3958;
   font-family: Outfit;
-  font-size: 48px;
   font-weight: 500;
   line-height: 116.667%;
   text-align: center;
+  font-size: 38px;
 }
-
+@media (min-width: 992px) {
+  .services__heading {
+    font-size: 48px;
+  }
+}
 .services__sub {
   color: #7B88A8;
   font-family: DM Sans;
   font-size: 18px;
   font-weight: 400;
   line-height: 155.556%;
+  text-align: center;
 }
 
 .services__content {
@@ -81,12 +86,18 @@
   bottom: 0;
   right: 0;
   transform: translateX(120%);
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   background-color: #4F77FF;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .services__decorate {
+    display: block;
+  }
 }
 
 .services__btn {

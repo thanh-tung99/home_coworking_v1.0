@@ -21,6 +21,12 @@
   bottom: 10px;
   left: 0;
   transform: translateX(calc(-100% - 10px));
+  display: none;
+}
+@media (min-width: 1200px) {
+  .gallery__decorate {
+    display: block;
+  }
 }
 
 .gallery__heading {

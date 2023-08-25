@@ -2,9 +2,13 @@
   margin: 0px 50px 120px 50px;
   background-color: #F7F5F1;
   border-radius: 20px;
-  padding: 100px 65px;
+  padding: 40px;
 }
-
+@media (min-width: 992px) {
+  .lockable-office {
+    padding: 100px 65px;
+  }
+}
 .lockable-office__item {
   display: flex;
   justify-content: center;
