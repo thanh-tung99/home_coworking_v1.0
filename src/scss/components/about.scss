@@ -1,6 +1,6 @@
 .about {
     background-color: #F7F5F1;
-    padding: 110px 0px 120px 0px;
+    padding: 60px 0px 80px 0px;
     
     @media (max-width: 575px) {
         
@@ -11,6 +11,7 @@
     }
     
     @media (min-width: 768px) {
+        padding: 110px 0px 120px 0px;
         
     }
     
@@ -40,9 +41,30 @@
 .about__heading {
     text-align: center;
     font-family: Outfit;
-    font-size: 48px;
     font-weight: 500;
     line-height: 116.667%;
+    font-size: 40px;
+
+    @media (max-width: 575px) {
+        
+    }
+    
+    @media (min-width: 575px) {
+        
+    }
+    
+    @media (min-width: 768px) {
+        font-size: 48px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 
@@ -115,9 +137,30 @@
     margin-bottom: 10px;
     color: #2D3958;
     font-family: Outfit;
-    font-size: 36px;
     font-weight: 500;
     line-height: 127.778%;
+    font-size: 30px;
+    
+    @media (max-width: 575px) {
+        
+    }
+    
+    @media (min-width: 575px) {
+        
+    }
+    
+    @media (min-width: 768px) {
+        font-size: 36px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 

@@ -1,11 +1,12 @@
 .lockable-office {
-  margin: 0px 50px 120px 50px;
+  margin: 0px 10px 90px 10px;
   background-color: #F7F5F1;
   border-radius: 20px;
-  padding: 40px;
+  padding: 20px;
 }
 @media (min-width: 992px) {
   .lockable-office {
+    margin: 0px 50px 120px 50px;
     padding: 100px 65px;
   }
 }
@@ -19,11 +20,17 @@
 .lockable-office__heading {
   color: #2D3958;
   font-family: Outfit;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 127.778%;
+  text-align: center;
 }
-
+@media (min-width: 768px) {
+  .lockable-office__heading {
+    text-align: left;
+    font-size: 36px;
+  }
+}
 .lockable-office__icon {
   width: 70px;
   height: 70px;
@@ -31,6 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .lockable-office__description {

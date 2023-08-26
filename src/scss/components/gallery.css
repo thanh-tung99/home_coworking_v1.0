@@ -71,12 +71,16 @@
 .gallery__heading--right {
   color: #2D3958;
   font-family: Outfit;
-  font-size: 42px;
   font-weight: 500;
   line-height: 119.048%;
   margin: 30px 0px;
+  font-size: 35px;
 }
-
+@media (min-width: 768px) {
+  .gallery__heading--right {
+    font-size: 42px;
+  }
+}
 .gallery__link {
   text-decoration: none;
   display: flex;

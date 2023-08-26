@@ -1,5 +1,26 @@
 .portfolio {
-    margin: 120px 0px;
+    margin: 60px 0px;
+
+    @media (max-width: 575px) {
+        
+    }
+        
+    @media (min-width: 575px) {
+            
+    }
+        
+    @media (min-width: 768px) {
+        margin: 120px 0px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 
@@ -8,10 +29,32 @@
     color: #2D3958;
     text-align: center;
     font-family: Outfit;
-    font-size: 42px;
     font-weight: 500;
     line-height: 119.048%;
-    margin-bottom: 100px;
+    font-size: 36px;
+    margin-bottom: 60px;
+    
+    @media (max-width: 575px) {
+        
+    }
+    
+    @media (min-width: 575px) {
+        
+    }
+    
+    @media (min-width: 768px) {
+        font-size: 42px;
+        margin-bottom: 100px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 
@@ -65,7 +108,28 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 145.455%;
-    padding: 30px 0px;
+    padding: 10px 0px;
+    
+    @media (max-width: 575px) {
+        
+    }
+    
+    @media (min-width: 575px) {
+        
+    }
+    
+    @media (min-width: 768px) {
+        padding: 30px 0px;
+        
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
     
 
 }

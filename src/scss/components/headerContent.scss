@@ -3,7 +3,28 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 30px 0px 100px 0px;
+    padding: 30px 0px 50px 0px;
+
+    @media (max-width: 575px) {
+        
+    }
+        
+    @media (min-width: 575px) {
+            
+    }
+        
+    @media (min-width: 768px) {
+        padding: 30px 0px 100px 0px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 
@@ -23,7 +44,7 @@
     line-height: 108.333%;
     max-width: 800px;
     padding: 20px 0px;
-    font-size: 52px;
+    font-size: 42px;
     
     @media (max-width: 575px) {
         
@@ -67,7 +88,7 @@
     font-weight: 400;
     line-height: 155.556%;
     padding: 20px 0px;
-    font-size: 16px;
+    font-size: 14px;
     
     @media (max-width: 575px) {
         
@@ -105,22 +126,64 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
+    @media (max-width: 575px) {
+        
+    }
+        
+    @media (min-width: 575px) {
+            
+    }
+        
+    @media (min-width: 768px) {
+        margin-top: 50px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 
 .header-content__book-now {
-    padding: 16px 32px;
     border-radius: 5px;
     background-color: #4F77FF;
-
+    font-size: 12px;
+    padding: 16px 22px;
+    
     color: #FFF;
     font-family: Outfit;
-    font-size: 15px;
     font-weight: 500;
     line-height: 160%;
     text-transform: uppercase;
     transition: all 0.4s;
+    
+    @media (max-width: 575px) {
+        
+    }
+    
+    @media (min-width: 575px) {
+        
+    }
+    
+    @media (min-width: 768px) {
+        font-size: 15px;
+        padding: 16px 32px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 
@@ -143,6 +206,7 @@
     color: #4F77FF;
     transition: all 0.2s;
     cursor: pointer;
+    flex-shrink: 0;
 
 }
 

@@ -1,5 +1,26 @@
 .services {
-    padding: 120px 0px;
+    padding: 60px 0px 80px 0px;
+
+    @media (max-width: 575px) {
+        
+    }
+        
+    @media (min-width: 575px) {
+            
+    }
+        
+    @media (min-width: 768px) {
+        padding: 120px 0px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 
@@ -20,7 +41,7 @@
     font-weight: 500;
     line-height: 116.667%;
     text-align: center;
-    font-size: 38px;
+    font-size: 30px;
 
     @media (max-width: 575px) {
         
@@ -31,6 +52,7 @@
     }
         
     @media (min-width: 768px) {
+        font-size: 38px;
       
     }
         
@@ -162,23 +184,66 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 40px;
+    
+    @media (max-width: 575px) {
+        
+    }
+    
+    @media (min-width: 575px) {
+        
+    }
+    
+    @media (min-width: 768px) {
+        margin-top: 70px;
+         
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 
 
 .services__btn button {
-    padding: 18px 32px;
     background-color: #4F77FF;
     color: #FFF;
     font-family: Outfit;
-    font-size: 15px;
     font-weight: 500;
     line-height: 160%;
     text-transform: uppercase;
     border-radius: 5px;
     transition: all 0.3s;
     cursor: pointer;
+    padding: 16px 22px;
+    font-size: 12px;
+
+    @media (max-width: 575px) {
+        
+    }
+        
+    @media (min-width: 575px) {
+            
+    }
+        
+    @media (min-width: 768px) {
+        padding: 18px 32px;
+        font-size: 15px;
+
+    }
+        
+    @media (min-width: 992px) {
+             
+    }
+    
+    @media (min-width: 1200px) {
+            
+    }
 
 }
 

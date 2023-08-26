@@ -3,20 +3,29 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 105px;
-  padding-bottom: 120px;
+  margin-top: 50px;
+  padding-bottom: 50px;
 }
-
+@media (min-width: 768px) {
+  .find__content {
+    margin-top: 105px;
+    padding-bottom: 120px;
+  }
+}
 .find__heading {
   color: #2D3958;
   font-family: Outfit;
-  font-size: 48px;
   font-weight: 500;
   line-height: 116.667%;
   padding: 15px 0px;
   text-align: center;
+  font-size: 40px;
 }
-
+@media (min-width: 768px) {
+  .find__heading {
+    font-size: 48px;
+  }
+}
 .find__heading--color {
   background: linear-gradient(224deg, #61DCDF 0%, #886CFF 100%);
   background-clip: text;
@@ -27,28 +36,38 @@
 .find__sub {
   color: #7B88A8;
   font-family: Outfit;
-  font-size: 22px;
   font-weight: 400;
   line-height: 145.455%;
   padding: 15px 0px;
-  margin-bottom: 75px;
   text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
 }
-
+@media (min-width: 768px) {
+  .find__sub {
+    margin-bottom: 75px;
+    font-size: 22px;
+  }
+}
 .find__btn {
-  padding: 18px 32px;
   border-radius: 5px;
   background-color: #4F77FF;
+  padding: 16px 22px;
+  font-size: 14px;
   color: #FFF;
   text-align: center;
   font-family: Outfit;
-  font-size: 15px;
   font-weight: 500;
   line-height: 160%;
   text-transform: uppercase;
   transition: all 0.3s;
 }
-
+@media (min-width: 768px) {
+  .find__btn {
+    padding: 18px 32px;
+    font-size: 15px;
+  }
+}
 .find__btn:hover {
   cursor: pointer;
   background-color: #85a0fa;

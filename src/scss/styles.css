@@ -618,9 +618,13 @@ h6 {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding: 30px 0px 100px 0px;
+  padding: 30px 0px 50px 0px;
 }
-
+@media (min-width: 768px) {
+  .header-content {
+    padding: 30px 0px 100px 0px;
+  }
+}
 .header-content__title {
   display: flex;
   justify-content: center;
@@ -636,7 +640,7 @@ h6 {
   line-height: 108.333%;
   max-width: 800px;
   padding: 20px 0px;
-  font-size: 52px;
+  font-size: 42px;
 }
 @media (min-width: 768px) {
   .header-content__heading {
@@ -659,7 +663,7 @@ h6 {
   font-weight: 400;
   line-height: 155.556%;
   padding: 20px 0px;
-  font-size: 16px;
+  font-size: 14px;
 }
 @media (min-width: 992px) {
   .header-content__sub {
@@ -672,22 +676,31 @@ h6 {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
-
+@media (min-width: 768px) {
+  .header-content__btn {
+    margin-top: 50px;
+  }
+}
 .header-content__book-now {
-  padding: 16px 32px;
   border-radius: 5px;
   background-color: #4F77FF;
+  font-size: 12px;
+  padding: 16px 22px;
   color: #FFF;
   font-family: Outfit;
-  font-size: 15px;
   font-weight: 500;
   line-height: 160%;
   text-transform: uppercase;
   transition: all 0.4s;
 }
-
+@media (min-width: 768px) {
+  .header-content__book-now {
+    font-size: 15px;
+    padding: 16px 32px;
+  }
+}
 .header-content__book-now:hover {
   background-color: #85a0fa;
   cursor: pointer;
@@ -706,6 +719,7 @@ h6 {
   color: #4F77FF;
   transition: all 0.2s;
   cursor: pointer;
+  flex-shrink: 0;
 }
 
 .header-content__play:hover {
@@ -726,9 +740,13 @@ h6 {
 }
 
 .services {
-  padding: 120px 0px;
+  padding: 60px 0px 80px 0px;
 }
-
+@media (min-width: 768px) {
+  .services {
+    padding: 120px 0px;
+  }
+}
 .services__head {
   display: flex;
   justify-content: center;
@@ -744,7 +762,12 @@ h6 {
   font-weight: 500;
   line-height: 116.667%;
   text-align: center;
-  font-size: 38px;
+  font-size: 30px;
+}
+@media (min-width: 768px) {
+  .services__heading {
+    font-size: 38px;
+  }
 }
 @media (min-width: 992px) {
   .services__heading {
@@ -831,23 +854,32 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 40px;
 }
-
+@media (min-width: 768px) {
+  .services__btn {
+    margin-top: 70px;
+  }
+}
 .services__btn button {
-  padding: 18px 32px;
   background-color: #4F77FF;
   color: #FFF;
   font-family: Outfit;
-  font-size: 15px;
   font-weight: 500;
   line-height: 160%;
   text-transform: uppercase;
   border-radius: 5px;
   transition: all 0.3s;
   cursor: pointer;
+  padding: 16px 22px;
+  font-size: 12px;
 }
-
+@media (min-width: 768px) {
+  .services__btn button {
+    padding: 18px 32px;
+    font-size: 15px;
+  }
+}
 .services__btn button:hover {
   background-color: #85a0fa;
 }
@@ -864,12 +896,16 @@ h6 {
 .logo-communication__heading {
   color: #000;
   font-family: Outfit;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 127.778%;
   text-align: center;
 }
-
+@media (min-width: 768px) {
+  .logo-communication__heading {
+    font-size: 36px;
+  }
+}
 .logo-communication__item {
   overflow: hidden;
 }
@@ -885,13 +921,14 @@ h6 {
 }
 
 .lockable-office {
-  margin: 0px 50px 120px 50px;
+  margin: 0px 10px 90px 10px;
   background-color: #F7F5F1;
   border-radius: 20px;
-  padding: 40px;
+  padding: 20px;
 }
 @media (min-width: 992px) {
   .lockable-office {
+    margin: 0px 50px 120px 50px;
     padding: 100px 65px;
   }
 }
@@ -905,11 +942,17 @@ h6 {
 .lockable-office__heading {
   color: #2D3958;
   font-family: Outfit;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 127.778%;
+  text-align: center;
 }
-
+@media (min-width: 768px) {
+  .lockable-office__heading {
+    text-align: left;
+    font-size: 36px;
+  }
+}
 .lockable-office__icon {
   width: 70px;
   height: 70px;
@@ -917,6 +960,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .lockable-office__description {
@@ -1017,12 +1061,16 @@ h6 {
 .gallery__heading--right {
   color: #2D3958;
   font-family: Outfit;
-  font-size: 42px;
   font-weight: 500;
   line-height: 119.048%;
   margin: 30px 0px;
+  font-size: 35px;
 }
-
+@media (min-width: 768px) {
+  .gallery__heading--right {
+    font-size: 42px;
+  }
+}
 .gallery__link {
   text-decoration: none;
   display: flex;
@@ -1068,7 +1116,12 @@ h6 {
 
 .about {
   background-color: #F7F5F1;
-  padding: 110px 0px 120px 0px;
+  padding: 60px 0px 80px 0px;
+}
+@media (min-width: 768px) {
+  .about {
+    padding: 110px 0px 120px 0px;
+  }
 }
 @media (min-width: 1200px) {
   .about {
@@ -1088,11 +1141,15 @@ h6 {
 .about__heading {
   text-align: center;
   font-family: Outfit;
-  font-size: 48px;
   font-weight: 500;
   line-height: 116.667%;
+  font-size: 40px;
 }
-
+@media (min-width: 768px) {
+  .about__heading {
+    font-size: 48px;
+  }
+}
 .about__heading--color {
   background: linear-gradient(224deg, #61DCDF 0%, #886CFF 100%);
   background-clip: text;
@@ -1139,11 +1196,15 @@ h6 {
   margin-bottom: 10px;
   color: #2D3958;
   font-family: Outfit;
-  font-size: 36px;
   font-weight: 500;
   line-height: 127.778%;
+  font-size: 30px;
 }
-
+@media (min-width: 768px) {
+  .description__heading {
+    font-size: 36px;
+  }
+}
 .description__sub {
   padding: 10px 0px;
   margin-bottom: 20px;
@@ -1263,19 +1324,28 @@ h6 {
 }
 
 .portfolio {
-  margin: 120px 0px;
+  margin: 60px 0px;
 }
-
+@media (min-width: 768px) {
+  .portfolio {
+    margin: 120px 0px;
+  }
+}
 .portfolio__heading {
   color: #2D3958;
   text-align: center;
   font-family: Outfit;
-  font-size: 42px;
   font-weight: 500;
   line-height: 119.048%;
-  margin-bottom: 100px;
+  font-size: 36px;
+  margin-bottom: 60px;
 }
-
+@media (min-width: 768px) {
+  .portfolio__heading {
+    font-size: 42px;
+    margin-bottom: 100px;
+  }
+}
 .portfolio__heading--color {
   background: linear-gradient(224deg, #61DCDF 0%, #886CFF 100%);
   background-clip: text;
@@ -1303,9 +1373,13 @@ h6 {
   font-size: 22px;
   font-weight: 400;
   line-height: 145.455%;
-  padding: 30px 0px;
+  padding: 10px 0px;
 }
-
+@media (min-width: 768px) {
+  .portfolio__name {
+    padding: 30px 0px;
+  }
+}
 .portfolio__decorate {
   width: 55px;
   height: 55px;
@@ -1356,12 +1430,17 @@ h6 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 105px;
   position: relative;
   z-index: 2;
-  padding-top: 120px;
+  padding-top: 30px;
+  margin-bottom: 60px;
 }
-
+@media (min-width: 768px) {
+  .pricing__head {
+    padding-top: 120px;
+    margin-bottom: 105px;
+  }
+}
 .pricing__heading {
   color: #2D3958;
   font-family: Outfit;
@@ -1387,9 +1466,13 @@ h6 {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  margin-top: 90px;
+  margin-top: 30px;
 }
-
+@media (min-width: 768px) {
+  .pricing__tag {
+    margin-top: 90px;
+  }
+}
 .pricing__text {
   color: #7B88A8;
   font-family: DM Sans;
@@ -1476,9 +1559,12 @@ h6 {
   font-weight: 500;
   line-height: 155.556%;
   padding: 10px;
-  margin: 0px 90px;
 }
-
+@media (min-width: 768px) {
+  .table__starter {
+    margin: 0px 90px;
+  }
+}
 .table__price {
   color: #2D3958;
   font-family: Outfit;
@@ -1487,13 +1573,16 @@ h6 {
   line-height: 127.778%;
   letter-spacing: -1px;
   padding: 10px;
-  margin: 0px 90px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   gap: 1px;
 }
-
+@media (min-width: 768px) {
+  .table__price {
+    margin: 0px 90px;
+  }
+}
 .table__price--lar {
   font-size: 64px;
   font-weight: 500;
@@ -1508,15 +1597,22 @@ h6 {
   font-weight: 400;
   line-height: 162.5%;
   padding: 10px;
-  margin: 0px 90px 30px 90px;
 }
-
+@media (min-width: 768px) {
+  .table__sub {
+    margin: 0px 90px 30px 90px;
+  }
+}
 .table__list {
   list-style: none;
   padding-left: 0;
-  margin: 0px 130px 50px 20px;
+  margin: 20px;
 }
-
+@media (min-width: 768px) {
+  .table__list {
+    margin: 0px 130px 50px 20px;
+  }
+}
 .table__item {
   display: flex;
   align-items: center;
@@ -1524,12 +1620,16 @@ h6 {
   gap: 20px;
   color: #2D3958;
   font-family: Outfit;
-  font-size: 22px;
   font-weight: 400;
   line-height: 145.455%;
   padding: 8px 0px;
+  font-size: 18px;
 }
-
+@media (min-width: 768px) {
+  .table__item {
+    font-size: 22px;
+  }
+}
 .table__item p {
   padding-bottom: 7px;
 }
@@ -1581,20 +1681,29 @@ h6 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 105px;
-  padding-bottom: 120px;
+  margin-top: 50px;
+  padding-bottom: 50px;
 }
-
+@media (min-width: 768px) {
+  .find__content {
+    margin-top: 105px;
+    padding-bottom: 120px;
+  }
+}
 .find__heading {
   color: #2D3958;
   font-family: Outfit;
-  font-size: 48px;
   font-weight: 500;
   line-height: 116.667%;
   padding: 15px 0px;
   text-align: center;
+  font-size: 40px;
 }
-
+@media (min-width: 768px) {
+  .find__heading {
+    font-size: 48px;
+  }
+}
 .find__heading--color {
   background: linear-gradient(224deg, #61DCDF 0%, #886CFF 100%);
   background-clip: text;
@@ -1605,28 +1714,38 @@ h6 {
 .find__sub {
   color: #7B88A8;
   font-family: Outfit;
-  font-size: 22px;
   font-weight: 400;
   line-height: 145.455%;
   padding: 15px 0px;
-  margin-bottom: 75px;
   text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
 }
-
+@media (min-width: 768px) {
+  .find__sub {
+    margin-bottom: 75px;
+    font-size: 22px;
+  }
+}
 .find__btn {
-  padding: 18px 32px;
   border-radius: 5px;
   background-color: #4F77FF;
+  padding: 16px 22px;
+  font-size: 14px;
   color: #FFF;
   text-align: center;
   font-family: Outfit;
-  font-size: 15px;
   font-weight: 500;
   line-height: 160%;
   text-transform: uppercase;
   transition: all 0.3s;
 }
-
+@media (min-width: 768px) {
+  .find__btn {
+    padding: 18px 32px;
+    font-size: 15px;
+  }
+}
 .find__btn:hover {
   cursor: pointer;
   background-color: #85a0fa;
@@ -1634,19 +1753,27 @@ h6 {
 
 .reviews {
   background-color: #F7F5F1;
-  padding: 120px 0px 105px 0px;
+  padding: 80px 0px;
 }
-
+@media (min-width: 768px) {
+  .reviews {
+    padding: 120px 0px 105px 0px;
+  }
+}
 .reviews__heading {
   color: #2D3958;
   text-align: center;
   font-family: Outfit;
-  font-size: 48px;
   font-weight: 500;
   line-height: 116.667%;
   padding: 15px 0px;
+  font-size: 40px;
 }
-
+@media (min-width: 768px) {
+  .reviews__heading {
+    font-size: 48px;
+  }
+}
 .reviews__sub {
   color: #7B88A8;
   text-align: center;
